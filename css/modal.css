@@ -1,0 +1,599 @@
+@charset "utf-8";
+
+/*my works 모달윈도 부분----*/
+
+/*한화 모달윈도 부분----------------------------*/
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.modal_hanwha{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,.8);
+    display: none;
+    z-index: 10000;
+/*    overflow-y: hidden;*/
+    text-align: center;
+    overflow: scroll;
+}
+.modal_hanwha > .hanwha_inner{
+    width: 900px;
+    height: 670px;
+    margin: 0px auto;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+.modal_hanwha > i.fas{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.modal_hanwha > i.fas:hover{
+    color: #959595;
+}
+.hanwha_inner > p{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 40px 0px;
+}
+.hanwha_inner > p > span{
+    color: #F06E1A;
+}
+.hanwha_t{
+    width: 900px;
+    height: 300px;
+}
+.hanwha_t > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.hanwha_t > p{
+    width: 410px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    bottom: 23%;
+}
+.hanwha_b{
+    width: 900px;
+    height: 250px;
+}
+.hanwha_b > div{
+/*    display: inline-block;*/
+    float: left;
+    margin: 10px 25px;
+}
+.main_color_img > img{
+    width: 250px;
+}
+.hanwha_b > div > p:first-child{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.hanwha_b > div > p:last-child{
+    margin-top: 25px;
+}
+.hanwha_link{
+    width: 148px;
+    margin: 0px auto;
+    position: relative;
+    bottom: 17%;
+}
+.hanwha_link > a{
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    transition: 0.5s;
+}
+.hanwha_link > a:hover{
+    background: #F06E1A;
+}
+
+
+/*비비큐 모달부분---------------------------------------------*/
+#modal_bbq{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,.8);
+    display: none;
+    z-index: 10000;
+    overflow-y: hidden;
+    text-align: center;
+    overflow: scroll;
+}
+#modal_bbq > .m_bbq_inner{
+    width: 900px;
+    height: 670px;
+    margin: 0px auto;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+#modal_bbq > i.fas{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#modal_bbq > i.fas:hover{
+    color: #959595;
+}
+.m_bbq_inner > p{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 40px 0px;
+}
+.m_bbq_inner > p > span{
+    color: #880505;
+}
+.bbq_t{
+    width: 900px;
+    height: 300px;
+}
+.bbq_t > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.bbq_t > p{
+    width: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    bottom: 20%;
+}
+.bbq_t > p > span{
+    background: #000;
+    color: #fff;
+}
+.bbq_b{
+    width: 1000px;
+    margin: 0px auto;
+    height: 250px;
+    position: relative;
+    left: -1%;
+}
+.bbq_b > div{
+/*    display: inline-block;*/
+    float: left;
+    margin: 10px 25px;
+}
+.main_color_img > img{
+    width: 250px;
+}
+.bbq_b > div > p:first-child{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.bbq_b > div > p:last-child{
+    margin-top: 25px;
+}
+.bbq_link{
+    width: 148px;
+    margin: 0px auto;
+    position: relative;
+    bottom: 17%;
+}
+.bbq_link > a{
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    transition: 0.5s;
+}
+.bbq_link > a:hover{
+    background: #880505;
+}
+
+/*리복 모달부분---------------------------------------------*/
+#modal_reebok{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,.8);
+    display: none;
+    z-index: 10000;
+    overflow-y: hidden;
+    text-align: center;
+    overflow: scroll;
+}
+#modal_reebok > .m_reebok_inner{
+    width: 900px;
+    height: 670px;
+    margin: 0px auto;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+#modal_reebok > i.fas{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#modal_reebok > i.fas:hover{
+    color: #959595;
+}
+.m_reebok_inner > p{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 40px 0px;
+}
+.m_reebok_inner > p > span{
+    color: #003A90;
+}
+.reebok_t{
+    width: 900px;
+    height: 300px;
+}
+.reebok_t > .reebok_img{
+     width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.reebok_t > .reebok_img > img{
+   width: 140%;
+    position: absolute;
+    left: -18%;
+}
+.reebok_t > p{
+    width: 460px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    bottom: 15%;
+}
+.reebok_t > p > span{
+/*    text-decoration: underline;*/
+    background: #000;
+    color: #fff;
+}
+.reebok_b{
+    width: 1000px;
+    margin: 0px auto;
+    height: 250px;
+    position: relative;
+    left: -1%;
+}
+.reebok_b > div{
+/*    display: inline-block;*/
+    float: left;
+    margin: 10px 25px;
+}
+.reebok_b > .r_tool > p:last-child{
+    transform: translateY(-20px);
+}
+.main_color_img > img{
+    width: 250px;
+}
+.reebok_b > div > p:first-child{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.reebok_b > div > p:last-child{
+    margin-top: 25px;
+}
+.reebok_link{
+    width: 148px;
+    margin: 0px auto;
+    position: relative;
+    bottom: 17%;
+}
+.reebok_link > a{
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    transition: 0.5s;
+}
+.reebok_link > a:hover{
+    background: #003A90;
+}
+
+/*버거킹 모달부분---------------------------------------------*/
+#modal_burgerking{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,.8);
+    display: none;
+    z-index: 10000;
+    overflow-y: hidden;
+    text-align: center;
+    overflow: scroll;
+}
+#modal_burgerking > .m_burgerking_inner{
+    width: 900px;
+    height: 670px;
+    margin: 0px auto;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+#modal_burgerking > i.fas{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#modal_burgerking > i.fas:hover{
+    color: #959595;
+}
+.m_burgerking_inner > p{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 40px 0px;
+}
+.m_burgerking_inner > p > span{
+    color: #e0b726;
+}
+.burger_t{
+    width: 900px;
+    height: 300px;
+}
+.burger_t > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.burger_t > p{
+    width: 460px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    bottom: 8%;
+}
+.burger_t > p > span{
+/*    text-decoration: underline;*/
+    background: #000;
+    color: #fff;
+}
+.burger_b{
+    width: 1000px;
+    margin: 0px auto;
+    height: 250px;
+    position: relative;
+    left: -1%;
+}
+.burger_b > div{
+/*    display: inline-block;*/
+    float: left;
+    margin: 10px 25px;
+}
+.burger_b > .r_tool > p:last-child{
+/*    transform: translateY(-20px);*/
+}
+.main_color_img > img{
+    width: 250px;
+}
+.burger_b > div > p:first-child{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.burger_b > div > p:last-child{
+    margin-top: 25px;
+}
+.burger_link{
+    width: 148px;
+    margin: 0px auto;
+    position: relative;
+    bottom: 17%;
+}
+.burger_link > a{
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    transition: 0.5s;
+}
+.burger_link > a:hover{
+    background: #e0b726;
+}
+
+/*수지 모달부분---------------------------------------------*/
+#modal_suzi{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,.8);
+    display: none;
+    z-index: 10000;
+    overflow-y: hidden;
+    text-align: center;
+    overflow: scroll;
+}
+#modal_suzi > .m_suzi_inner{
+    width: 900px;
+    height: 670px;
+    margin: 0px auto;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+#modal_suzi > i.fas{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#modal_suzi > i.fas:hover{
+    color: #959595;
+}
+.m_suzi_inner > p{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 40px 0px;
+}
+.m_suzi_inner > p > span{
+    color: #232123;
+}
+.suzi_t{
+    width: 900px;
+    height: 300px;
+}
+.suzi_t > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.suzi_t > p{
+    width: 480px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    bottom: 8%;
+}
+.suzi_t > p > span{
+/*    text-decoration: underline;*/
+    background: #000;
+    color: #fff;
+}
+.suzi_b{
+    width: 1000px;
+    margin: 0px auto;
+    height: 250px;
+    position: relative;
+    left: -1%;
+}
+.suzi_b > div{
+/*    display: inline-block;*/
+    float: left;
+    margin: 10px 22px;
+}
+.suzi_b > .r_tool > p:last-child{
+/*    transform: translateY(-20px);*/
+}
+.main_color_img > img{
+    width: 250px;
+}
+.suzi_b > div > p:first-child{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.suzi_b > div > p:last-child{
+    margin-top: 25px;
+}
+.suzi_link{
+    width: 148px;
+    margin: 0px auto;
+    position: relative;
+    bottom: 17%;
+}
+.suzi_link > a{
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    transition: 0.5s;
+}
+.suzi_link > a:hover{
+    background: #ffd2fd;
+    color: #000;
+    font-weight: bold;
+}
+.suzi_size{
+    transform: translateY(20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
