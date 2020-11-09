@@ -98,7 +98,7 @@ $(document).ready(function(){
     
     //내비게이션 메뉴 클릭시 해당하는 컨텐츠 상단에 올라오게 하기
     $('.h_gnb li').click(function(){
-        
+            
         $('.h_gnb li').removeClass('on');
         $(this).addClass('on');
         
@@ -108,15 +108,12 @@ $(document).ready(function(){
         let con = $('section article').eq(num).offset().top;
         
         $('html, body').animate({
-            scrollTop : con-60
+            scrollTop : con-70
         },500);
         
         return false;
         
     });
-    
-    
-   
     
     
     //스크롤 이벤트
@@ -136,28 +133,28 @@ $(document).ready(function(){
         var s_Pos = $(window).scrollTop();
         let cont = $('section > article');
         
-        if(s_Pos >= (cont.eq(0).offset().top)-60){
+        if(s_Pos >= (cont.eq(0).offset().top)-80){
             $('.h_gnb li').removeClass('on');
             bg_op.css({
                 'background':'rgba(0,0,0,0)'
             });
 //             background: rgba(0,0,0,.9)
         }
-        if(s_Pos >= (cont.eq(1).offset().top)-60){
+        if(s_Pos >= (cont.eq(1).offset().top)-80){
             $('.h_gnb li').removeClass('on');
             $('.h_gnb li').eq(0).addClass('on');
             bg_op.css({
                 'background':'rgba(0,0,0,.2)'
             });
         }
-        if(s_Pos >= (cont.eq(2).offset().top)-60){
+        if(s_Pos >= (cont.eq(2).offset().top)-80){
             $('.h_gnb li').removeClass('on');
             $('.h_gnb li').eq(1).addClass('on');
              bg_op.css({
                 'background':'rgba(0,0,0,.5)'
             });
         }
-        if(s_Pos >= (cont.eq(3).offset().top)-60){
+        if(s_Pos >= (cont.eq(3).offset().top)-80){
             $('.h_gnb li').removeClass('on');
             $('.h_gnb li').eq(2).addClass('on');
              bg_op.css({
@@ -277,6 +274,7 @@ $(document).ready(function(){
     });
     
     
+
     //모달윈도 부분------------------
     //한화리조트
     $('.modal_page1').click(function(){
@@ -348,6 +346,34 @@ $(document).ready(function(){
         $('html, body').animate({
             scrollTop:'0px'
         },300);
+    });
+
+    //스킬 확인하기 버튼 클릭시 막대 오른쪽으로 움직이기
+    // $('#skill_button').click(function(){
+    //     $('#percent_bar1').animate({'width':'60%'});
+    //     $('#percent_bar2').animate({'width':'60%'});
+    //     $('#percent_bar3').animate({'width':'90%'});
+    //     $('#percent_bar4').animate({'width':'90%'});
+    //     $('#percent_bar5').animate({'width':'70%'});
+    //     $('#percent_bar6').animate({'width':'50%'});
+    //     $('#percent_bar7').animate({'width':'60%'});
+    //     $('#percent_bar8').animate({'width':'50%'});
+    // });
+
+    $(window).scroll(function(){
+        let skill_sPos = $(window).scrollTop();
+        let skill_cont = $('section > article').eq(1);
+
+        if(skill_sPos >= (skill_cont.offset().top)+700){
+            $('#percent_bar1').animate({'width':'60%'});
+            $('#percent_bar2').animate({'width':'60%'});
+            $('#percent_bar3').animate({'width':'90%'});
+            $('#percent_bar4').animate({'width':'90%'});
+            $('#percent_bar5').animate({'width':'70%'});
+            $('#percent_bar6').animate({'width':'50%'});
+            $('#percent_bar7').animate({'width':'60%'});
+            $('#percent_bar8').animate({'width':'50%'});
+        }
     });
     
     

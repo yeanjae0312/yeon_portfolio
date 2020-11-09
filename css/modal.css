@@ -23,11 +23,11 @@ body.modal-open {
 }
 .modal_hanwha > .hanwha_inner{
     width: 900px;
-    height: 670px;
-    margin: 0px auto;
+    /* height: 670px; */
+    margin: 0px auto 50px auto;
     background: #fff;
-    box-shadow: 0px 0px 10px #ccc;
-    border-radius: 50px;
+    /* box-shadow: 0px 0px 5px #ccc; */
+    border-radius: 10px;
     margin-top: 20px;
     position: relative;
 }
@@ -51,7 +51,7 @@ body.modal-open {
 }
 .hanwha_t{
     width: 900px;
-    height: 300px;
+    /* height: 300px; */
 }
 .hanwha_t > img{
     width: 300px;
@@ -67,15 +67,15 @@ body.modal-open {
     display: inline-block;
     text-align: left;
     position: relative;
-    bottom: 23%;
+    /* bottom: 23%; */
 }
 .hanwha_b{
     width: 900px;
-    height: 250px;
+    /* height: 250px; */
 }
 .hanwha_b > div{
 /*    display: inline-block;*/
-    float: left;
+    /* float: left; */
     margin: 10px 25px;
 }
 .main_color_img > img{
@@ -126,11 +126,11 @@ body.modal-open {
 }
 #modal_bbq > .m_bbq_inner{
     width: 900px;
-    height: 670px;
-    margin: 0px auto;
+    /* height: 670px; */
+    margin: 0px auto 50px auto;
     background: #fff;
-    box-shadow: 0px 0px 10px #ccc;
-    border-radius: 50px;
+    /* box-shadow: 0px 0px 5px #ccc; */
+    border-radius: 10px;
     margin-top: 20px;
     position: relative;
 }
@@ -154,7 +154,7 @@ body.modal-open {
 }
 .bbq_t{
     width: 900px;
-    height: 300px;
+    /* height: 300px; */
 }
 .bbq_t > img{
     width: 300px;
@@ -170,7 +170,7 @@ body.modal-open {
     display: inline-block;
     text-align: left;
     position: relative;
-    bottom: 20%;
+    /* bottom: 20%; */
 }
 .bbq_t > p > span{
     background: #000;
@@ -179,13 +179,13 @@ body.modal-open {
 .bbq_b{
     width: 1000px;
     margin: 0px auto;
-    height: 250px;
+    /* height: 250px; */
     position: relative;
     left: -1%;
 }
 .bbq_b > div{
 /*    display: inline-block;*/
-    float: left;
+    /* float: left; */
     margin: 10px 25px;
 }
 .main_color_img > img{
@@ -235,11 +235,11 @@ body.modal-open {
 }
 #modal_reebok > .m_reebok_inner{
     width: 900px;
-    height: 670px;
-    margin: 0px auto;
+    /* height: 670px; */
+    margin: 0px auto 50px auto;
     background: #fff;
-    box-shadow: 0px 0px 10px #ccc;
-    border-radius: 50px;
+    /* box-shadow: 0px 0px 5px #ccc; */
+    border-radius: 10px;
     margin-top: 20px;
     position: relative;
 }
@@ -263,7 +263,7 @@ body.modal-open {
 }
 .reebok_t{
     width: 900px;
-    height: 300px;
+    /* height: 300px; */
 }
 .reebok_t > .reebok_img{
      width: 300px;
@@ -287,7 +287,7 @@ body.modal-open {
     display: inline-block;
     text-align: left;
     position: relative;
-    bottom: 15%;
+    /* bottom: 15%; */
 }
 .reebok_t > p > span{
 /*    text-decoration: underline;*/
@@ -297,13 +297,13 @@ body.modal-open {
 .reebok_b{
     width: 1000px;
     margin: 0px auto;
-    height: 250px;
+    /* height: 250px; */
     position: relative;
     left: -1%;
 }
 .reebok_b > div{
 /*    display: inline-block;*/
-    float: left;
+    /* float: left; */
     margin: 10px 25px;
 }
 .reebok_b > .r_tool > p:last-child{
@@ -356,11 +356,11 @@ body.modal-open {
 }
 #modal_burgerking > .m_burgerking_inner{
     width: 900px;
-    height: 670px;
-    margin: 0px auto;
+    /* height: 670px; */
+    margin: 0px auto 50px auto;
     background: #fff;
-    box-shadow: 0px 0px 10px #ccc;
-    border-radius: 50px;
+    /* box-shadow: 0px 0px 5px #ccc; */
+    border-radius: 10px;
     margin-top: 20px;
     position: relative;
 }
@@ -384,7 +384,7 @@ body.modal-open {
 }
 .burger_t{
     width: 900px;
-    height: 300px;
+    /* height: 300px; */
 }
 .burger_t > img{
     width: 300px;
@@ -400,7 +400,7 @@ body.modal-open {
     display: inline-block;
     text-align: left;
     position: relative;
-    bottom: 8%;
+    /* bottom: 8%; */
 }
 .burger_t > p > span{
 /*    text-decoration: underline;*/
@@ -410,13 +410,13 @@ body.modal-open {
 .burger_b{
     width: 1000px;
     margin: 0px auto;
-    height: 250px;
+    /* height: 250px; */
     position: relative;
     left: -1%;
 }
 .burger_b > div{
 /*    display: inline-block;*/
-    float: left;
+    /* float: left; */
     margin: 10px 25px;
 }
 .burger_b > .r_tool > p:last-child{
@@ -469,11 +469,11 @@ body.modal-open {
 }
 #modal_suzi > .m_suzi_inner{
     width: 900px;
-    height: 670px;
-    margin: 0px auto;
+    /* height: 670px; */
+    margin: 0px auto 50px auto;
     background: #fff;
-    box-shadow: 0px 0px 10px #ccc;
-    border-radius: 50px;
+    /* box-shadow: 0px 0px 5px #ccc; */
+    border-radius: 10px;
     margin-top: 20px;
     position: relative;
 }
@@ -497,7 +497,7 @@ body.modal-open {
 }
 .suzi_t{
     width: 900px;
-    height: 300px;
+    /* height: 300px; */
 }
 .suzi_t > img{
     width: 300px;
@@ -513,7 +513,7 @@ body.modal-open {
     display: inline-block;
     text-align: left;
     position: relative;
-    bottom: 8%;
+    /* bottom: 8%; */
 }
 .suzi_t > p > span{
 /*    text-decoration: underline;*/
@@ -523,13 +523,13 @@ body.modal-open {
 .suzi_b{
     width: 1000px;
     margin: 0px auto;
-    height: 250px;
+    /* height: 250px; */
     position: relative;
     left: -1%;
 }
 .suzi_b > div{
 /*    display: inline-block;*/
-    float: left;
+    /* float: left; */
     margin: 10px 22px;
 }
 .suzi_b > .r_tool > p:last-child{
@@ -571,8 +571,787 @@ body.modal-open {
     transform: translateY(20px);
 }
 
+/*PC*/
+@media screen and (min-width:1024px){
+    
+    .modal_hanwha > .hanwha_inner{
+        height: 670px;
+    }
+    .hanwha_t{
+        height: 300px;
+    }
+    .hanwha_t > p{
+        bottom: 23%;
+    }
+    .hanwha_b{
+        height: 250px;
+    }
+    .hanwha_b > div{
+        float: left;
+    }
 
+    #modal_bbq > .m_bbq_inner{
+        height: 670px;
+    }
+    .bbq_t{
+        height: 300px;
+    }
+    .bbq_t > p{
+        bottom: 23%;
+    }
+    .bbq_b{
+        height: 250px;
+    }
+    .bbq_b > div{
+        float: left;
+    }
 
+    #modal_reebok > .m_reebok_inner{
+        height: 670px;
+    }
+    .reebok_t{
+        height: 300px;
+    }
+    .reebok_t > p{
+        bottom: 14%;
+    }
+    .reebok_b{
+        height: 250px;
+    }
+    .reebok_b > div{
+        float: left;
+    }
+
+    #modal_burgerking > .m_burgerking_inner{
+        height: 670px;
+    }
+    .burger_t{
+        height: 300px;
+    }
+    .burger_t > p{
+        bottom: 8%;
+    }
+    .burger_b{
+        height: 250px;
+    }
+    .burger_b > div{
+        float: left;
+    }
+
+    #modal_suzi > .m_suzi_inner{
+        height: 670px;
+    }
+    .suzi_t{
+        height: 300px;
+    }
+    .suzi_t > p{
+        bottom: 8%;
+    }
+    .suzi_b{
+        height: 250px;
+    }
+    .suzi_b > div{
+        float: left;
+    }
+}
+
+/*TABLET*/
+@media screen and (min-width:768px) and (max-width:1023px){
+    body.modal-open {
+        overflow: hidden;
+    }
+    /*my works 모달윈도 부분----*/
+
+    /*한화 모달윈도 부분----------------------------*/
+    
+    .modal_hanwha > .hanwha_inner{
+        width: 90%;
+        height: 650px;
+    }
+    .hanwha_t{
+        width: 100%;
+        height: 300px;
+    }
+    .hanwha_t > img{
+        width: 300px;
+        height: 300px;
+        margin-right: 30px;
+    }
+    .hanwha_t > p{
+        width: 360px;
+        font-size: 14px;
+        bottom: 21%;
+    }
+    .hanwha_b{
+        width: 100%;
+        height: 250px;
+    }
+    .hanwha_b > div{
+        float: left;
+        margin: 30px 20px;
+    }
+    .main_color_img > img{
+        width: 200px;
+    }
+    .hanwha_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .hanwha_b > div > p:last-child{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .hanwha_link{
+        bottom: 20%;
+    }
+
+    /*비비큐 모달부분---------------------------------------------*/
+    
+    #modal_bbq > .m_bbq_inner{
+        width: 90%;
+        height: 650px;
+    }
+    .bbq_t{
+        width: 100%;
+        height: 300px;
+    }
+    .bbq_t > img{
+        width: 300px;
+        height: 300px;
+        margin-right: 30px;
+    }
+    .bbq_t > p{
+        width: 360px;
+        font-size: 14px;
+        bottom: 15%;
+    }
+    .bbq_b{
+        width: 100%;
+        height: 250px;
+    }
+    .bbq_b > div{
+        float: left;
+        margin: 30px 20px;
+    }
+    .main_color_img > img{
+        width: 200px;
+    }
+    .bbq_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .bbq_b > div > p:last-child{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .bbq_link{
+        bottom: 20%;
+    }
+
+    /*리복 모달부분-----------------------------------------*/
+    #modal_reebok > .m_reebok_inner{
+        width: 90%;
+        height: 650px;
+    }
+    .reebok_t{
+        width: 100%;
+        height: 300px;
+    }
+    .reebok_t > img{
+        width: 230px;
+        height: 230px;
+        margin-right: 30px;
+    }
+    .reebok_t > p{
+        width: 360px;
+        font-size: 14px;
+        bottom: 10%;
+    }
+    .reebok_b{
+        width: 100%;
+        height: 250px;
+    }
+    .reebok_b > div{
+        float: left;
+        margin: 30px 20px;
+    }
+    .main_color_img > img{
+        width: 200px;
+    }
+    .reebok_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .reebok_b > div > p:last-child{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .reebok_link{
+        bottom: 20%;
+    }
+
+    /*버거킹 모달부분-----------------------------------------*/
+    #modal_burgerking > .m_burgerking_inner{
+        width: 90%;
+        height: 650px;
+    }
+    .burger_t{
+        width: 100%;
+        height: 300px;
+    }
+    .burger_t > img{
+        width: 300px;
+        height: 300px;
+        margin-right: 30px;
+    }
+    .burger_t > p{
+        width: 360px;
+        font-size: 14px;
+        bottom: 8%;
+    }
+    .burger_b{
+        width: 100%;
+        height: 250px;
+    }
+    .burger_b > div{
+        float: left;
+        margin: 30px 20px;
+    }
+    .main_color_img > img{
+        width: 200px;
+    }
+    .burger_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .burger_b > div > p:last-child{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .burger_link{
+        bottom: 20%;
+    }
+
+    /*수지 모달부분-----------------------------------------*/
+    #modal_suzi > .m_suzi_inner{
+        width: 90%;
+        height: 650px;
+    }
+    .suzi_t{
+        width: 100%;
+        height: 300px;
+    }
+    .suzi_t > img{
+        width: 300px;
+        height: 300px;
+        margin-right: 30px;
+    }
+    .suzi_t > p{
+        width: 360px;
+        font-size: 14px;
+        bottom: 8%;
+    }
+    .suzi_b{
+        width: 100%;
+        height: 250px;
+    }
+    .suzi_b > div{
+        float: left;
+        margin: 30px 20px;
+    }
+    .main_color_img > img{
+        width: 200px;
+    }
+    .suzi_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .suzi_b > div > p:last-child{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .suzi_link{
+        bottom: 20%;
+    }
+}
+
+/*MobILE*/
+@media screen and (max-width:767px){
+    body.modal-open {
+        overflow: hidden;
+    }
+    /*my works 모달윈도 부분----*/
+
+    /*한화 모달윈도 부분------------------------*/
+    .modal_hanwha > .hanwha_inner{
+        width: 85%;
+        /* height: 670px; */
+        border-radius: 10px;
+        margin: 5px auto 100px auto;
+        padding-bottom: 20px;
+    }
+    .modal_hanwha > i.fas{
+        font-size: 30px;
+    }
+    .modal_hanwha > i.fas:hover{
+        color: #959595;
+    }
+    .hanwha_inner > p{
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 0px;
+    }
+    .hanwha_t{
+        width: 100%;
+        height: 100%;
+        /* height: 250px; */
+        margin: 0px auto;
+        position: relative;
+    }
+    .hanwha_t > img{
+        width: 100%;
+        height: 250px;
+        border-radius: 0px;
+        margin-right: 50px;
+    }
+    .hanwha_t::after{
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: rgba(0,0,0,.9);
+    }
+    .hanwha_t > p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight:normal;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+        z-index: 10;
+        color: #fff;
+        text-indent: 10px;
+    }
+    .hanwha_b{
+        width: 100%;
+    }
+    .hanwha_b > div{
+        margin: 10px auto 30px auto;
+    }
+    .main_color_img > img{
+        width: 240px;
+    }
+    .hanwha_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 5px 0px;
+        margin-top: 10px;
+    }
+    .hanwha_b > div > p:last-child{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .hanwha_b > div:last-child{
+        margin-bottom: 40px;
+    }
+    .hanwha_link{
+        width: 148px;
+        bottom: 0px;
+    }
+    .hanwha_link > a{
+        padding: 10px;
+        font-size: 14px;
+        top: 0px;
+    }
+    .hanwha_link > a:hover{
+        background: #F06E1A;
+    }
+
+    /*비비큐 모달윈도 부분------------------------*/
+    #modal_bbq > .m_bbq_inner{
+        width: 85%;
+        /* height: 670px; */
+        border-radius: 10px;
+        margin: 5px auto 100px auto;
+        padding-bottom: 20px;
+    }
+    #modal_bbq > i.fas{
+        font-size: 30px;
+    }
+    #modal_bbq > i.fas:hover{
+        color: #959595;
+    }
+    .m_bbq_inner > p{
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 0px;
+    }
+    .bbq_t{
+        width: 100%;
+        height: 250px;
+        margin: 0px auto;
+        position: relative;
+    }
+    .bbq_t::after{
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: rgba(0,0,0,.9);
+    }
+    .bbq_t > img{
+        width: 100%;
+        height: 250px;
+        border-radius: 0px;
+        margin-right: 50px;
+    }
+    .bbq_t > p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight:normal;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        z-index: 10;
+        transform: translateY(-50%);
+        /* padding: 8px 0px; */
+        background: rgba(0,0,0,.9);
+        color: #fff;
+        text-indent: 10px;
+    }
+    .bbq_b{
+        width: 100%;
+    }
+    .bbq_b > div{
+        margin: 10px auto 30px auto;
+    }
+    .main_color_img > img{
+        width: 240px;
+    }
+    .bbq_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 5px 0px;
+        margin-top: 10px;
+    }
+    .bbq_b > div > p:last-child{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .bbq_b > div:last-child{
+        margin-bottom: 40px;
+    }
+    .bbq_link{
+        width: 148px;
+        bottom: 0px;
+    }
+    .bbq_link > a{
+        padding: 10px;
+        font-size: 14px;
+        top: 0px;
+    }
+    .bbq_link > a:hover{
+        background: #880505;
+    }
+
+    /*리복 모달윈도 부분------------------------*/
+    #modal_reebok > .m_reebok_inner{
+        width: 85%;
+        /* height: 670px; */
+        border-radius: 10px;
+        margin: 5px auto 100px auto;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+    #modal_reebok > i.fas{
+        font-size: 30px;
+    }
+    #modal_reebok > i.fas:hover{
+        color: #959595;
+    }
+    .m_reebok_inner > p{
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 0px;
+    }
+    .reebok_t{
+        width: 100%;
+        height: 250px;
+        margin: 0px auto;
+        position: relative;
+    }
+    .reebok_t::after{
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: rgba(0,0,0,.9);
+    }
+    .reebok_t > .reebok_img{
+        width: 125%;
+       height: 250px;
+       border-radius: 0px;
+       margin-right: 0px;
+       overflow: hidden;
+       position: relative;
+       display: inline-block;
+   }
+    .reebok_t > .reebok_img > img{
+        width: 100%;
+        height: 250px;
+        border-radius: 0px;
+        margin-right: 50px;
+    }
+    .reebok_t > p{
+        width: 100%;
+        font-size: 10px;
+        line-height: 24px;
+        font-weight:normal;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        z-index: 10;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,.9);
+        color: #fff;
+        text-indent: 10px;
+    }
+    .reebok_b{
+        width: 100%;
+    }
+    .reebok_b > div{
+        margin: 10px auto 30px auto;
+    }
+    .main_color_img > img{
+        width: 240px;
+    }
+    .reebok_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 5px 0px;
+        margin-top: 10px;
+    }
+    .reebok_b > div > p:last-child{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .reebok_b > .r_tool > p:last-child {
+        transform: translateY(0px);
+    }
+    .reebok_b > div:last-child{
+        margin-bottom: 40px;
+    }
+    .reebok_link{
+        width: 148px;
+        bottom: 0px;
+    }
+    .reebok_link > a{
+        padding: 10px;
+        font-size: 14px;
+        top: 0px;
+    }
+    .reebok_link > a:hover{
+        background: #003A90;
+    }
+
+    /*버거킹 모달윈도 부분------------------------*/
+    #modal_burgerking > .m_burgerking_inner{
+        width: 85%;
+        /* height: 670px; */
+        border-radius: 10px;
+        margin: 5px auto 100px auto;
+        padding-bottom: 20px;
+    }
+    #modal_burgerking > i.fas{
+        font-size: 30px;
+    }
+    #modal_burgerking > i.fas:hover{
+        color: #959595;
+    }
+    .m_burgerking_inner > p{
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 0px;
+    }
+    .burger_t{
+        width: 100%;
+        height: 100%;
+        /* height: 250px; */
+        margin: 0px auto;
+        position: relative;
+    }
+    .burger_t > img{
+        width: 100%;
+        height: 250px;
+        border-radius: 0px;
+        margin-right: 50px;
+    }
+    .burger_t::after{
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: rgba(0,0,0,.9);
+    }
+    .burger_t > p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight:normal;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+        z-index: 10;
+        color: #fff;
+        text-indent: 10px;
+    }
+    .burger_b{
+        width: 100%;
+    }
+    .burger_b > div{
+        margin: 10px auto 30px auto;
+    }
+    .main_color_img > img{
+        width: 240px;
+    }
+    .burger_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 5px 0px;
+        margin-top: 10px;
+    }
+    .burger_b > div > p:last-child{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .burger_b > div:last-child{
+        margin-bottom: 40px;
+    }
+    .burger_link{
+        width: 148px;
+        bottom: 0px;
+    }
+    .burger_link > a{
+        padding: 10px;
+        font-size: 14px;
+        top: 0px;
+    }
+    .burger_link > a:hover{
+        background: #e0b726;
+    }
+
+    /*수지 모달윈도 부분------------------------*/
+    #modal_suzi > .m_suzi_inner{
+        width: 85%;
+        /* height: 670px; */
+        border-radius: 10px;
+        margin: 5px auto 100px auto;
+        padding-bottom: 20px;
+    }
+    #modal_suzi > i.fas{
+        font-size: 30px;
+    }
+    #modal_suzi > i.fas:hover{
+        color: #959595;
+    }
+    .m_suzi_inner > p{
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 0px;
+    }
+    .suzi_t{
+        width: 100%;
+        height: 100%;
+        /* height: 250px; */
+        margin: 0px auto;
+        position: relative;
+    }
+    .suzi_t > img{
+        width: 100%;
+        height: 250px;
+        border-radius: 0px;
+        margin-right: 50px;
+    }
+    .suzi_t::after{
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: rgba(0,0,0,.9);
+    }
+    .suzi_t > p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight:normal;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+        z-index: 10;
+        color: #fff;
+        text-indent: 10px;
+    }
+    .suzi_b{
+        width: 100%;
+    }
+    .suzi_b > div{
+        margin: 10px auto 30px auto;
+    }
+    .main_color_img > img{
+        width: 240px;
+    }
+    .suzi_b > div > p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 5px 0px;
+        margin-top: 10px;
+    }
+    .suzi_b > div > p:last-child{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .suzi_b > div:last-child{
+        margin-bottom: 40px;
+    }
+    .suzi_link{
+        width: 148px;
+        bottom: 0px;
+    }
+    .suzi_link > a{
+        padding: 10px;
+        font-size: 14px;
+        top: 0px;
+    }
+    .suzi_link > a:hover{
+        background: #ffd2fd;
+    }
+
+}
 
 
 

@@ -9,6 +9,8 @@
     <title>이연재 포트폴리오</title>
     
     <link href="./css/layout.css" rel="stylesheet" type="text/css">
+    <link href="./css/layout_tablet.css" rel="stylesheet" type="text/css">
+    <link href="./css/layout_mobile.css" rel="stylesheet" type="text/css">
     
     <link href="./css/base.css" rel="stylesheet" type="text/css">
     
@@ -72,11 +74,11 @@
    <header>
     <h1>
         <a href="index.html" title="메인페이지로">
-            <img src="./img/logo_yj14.png" alt="로고">
+            <img src="./img/logo_tree2.png" alt="로고">
         </a>
     </h1>
          
-     <a href="main.html"><img src="./img/logo_yj14.png" alt="왼쪽로고"></a>
+     <a href="main.html" title="메인으로" class="l_logo"><img src="./img/logo_tree2.png" alt="왼쪽로고"></a>
      
      <div id="h_wrap">
        <nav class="h_gnb">
@@ -96,7 +98,7 @@
    
    <!-- 컨텐츠영역 -->
    <section>
-       
+       <!-- <p class="name">이연재</p> -->
        <article class="visual">
        <h2>visual</h2>
         <div class="visual_bg">
@@ -108,7 +110,6 @@
           
            <p>떠오르는 코더 <span>'이연재'</span></p>
            <p class="typing-txt">I'm a <span class="txt_animate"></span></p>
-<!--           <p class="typing"></p>-->
            
            <div class="m_icon">
                <img src="./img/mouse_icon.svg" alt="스크롤다운 아이콘">
@@ -216,6 +217,202 @@
                        </div>
                    </div>
                </div>
+
+               <div class="mobile_skills">
+                    <div class="m_skills_inner">
+                        <h3>SKILLS</h3>
+                        <!-- <input type="button" value="확인하기" id="skill_button" onclick="skillBar()"> onclick="skillBar()" -->
+                            <!-- <label for="skill_button">스킬 확인하기 버튼</label> -->
+
+                        <div id="bar1">
+                            <img src="./img/icon_ps.png" class="icon_img" alt="아이콘">
+                            <span id="num1">60%</span>
+                            <div id="bar">
+                                <div id="percent_bar1"></div>
+                            </div>
+                        </div>
+
+                        <div id="bar2">
+                            <img src="./img/icon_ai.png" class="icon_img" alt="아이콘">
+                            <span id="num2">60%</span>
+                            <div id="bar">
+                                <div id="percent_bar2"></div>
+                            </div>
+                        </div>
+
+                        <div id="bar3">
+                            <img src="./img/icon_html.png" class="icon_img" alt="아이콘">
+                            <span id="num3">90%</span>
+                            <div id="bar">
+                                <div id="percent_bar3"></div>
+                            </div>
+                        </div>
+
+                        <div id="bar4">
+                            <img src="./img/icon_css.png" class="icon_img" alt="아이콘">
+                            <span id="num4">90%</span>
+                            <div id="bar">
+                                <div id="percent_bar4"></div>
+                            </div>
+                        </div>
+
+                        <div id="bar5">
+                            <img src="./img/icon_jq.png" class="icon_img" alt="아이콘">
+                            <span id="num5">70%</span>
+                            <div id="bar">
+                                <div id="percent_bar5"></div>
+                            </div>
+                        </div>
+
+                        <div id="bar6">
+                            <img src="./img/icon_js.png" class="icon_img" alt="아이콘">
+                            <span id="num6">50%</span>
+                            <div id="bar">
+                                <div id="percent_bar6"></div>
+                            </div>
+                        </div>
+
+                        <div id="bar7">
+                            <img src="./img/icon_sql.png" class="icon_img" alt="아이콘">
+                            <span id="num7">60%</span>
+                            <div id="bar">
+                                <div id="percent_bar7"></div>
+                            </div>
+                        </div>
+
+                        <div id="bar8">
+                            <img src="./img/icon_php.png" class="icon_img" alt="아이콘">
+                            <span id="num8">50%</span>
+                            <div id="bar">
+                                <div id="percent_bar8"></div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               <div class="mskills_after"></div>
+<!-- 
+               <script>
+                       //모바일 스킬바 나타나게 하기
+                    function skillBar(){
+                        var bar1 = document.getElementById('percent_bar1');
+                        var bar2 = document.getElementById('percent_bar2');
+                        var bar3 = document.getElementById('percent_bar3');
+                        var bar4 = document.getElementById('percent_bar4');
+                        var bar5 = document.getElementById('percent_bar5');
+                        var bar6 = document.getElementById('percent_bar6');
+                        var bar7 = document.getElementById('percent_bar7');
+                        var bar8 = document.getElementById('percent_bar8');
+
+                        var num1 = document.getElementById('num1');
+                        var num2 = document.getElementById('num2');
+                        var num3 = document.getElementById('num3');
+                        var num4 = document.getElementById('num4');
+                        var num5 = document.getElementById('num5');
+                        var num6 = document.getElementById('num6');
+                        var num7 = document.getElementById('num7');
+                        var num8 = document.getElementById('num8');
+
+                        var width = 0;
+
+                        var time1 = setInterval(function(){
+
+                            if(width == 60){
+                                clearInterval(time1);
+                                width = 0;
+                            }else{
+                                width++;
+                                bar1.style.width = width + '%';
+                                // num1.innerHTML = width + '%';
+                            }
+                        },15);
+
+                        var time2 = setInterval(function(){
+
+                            if(width == 60){
+                                clearInterval(time2);
+                                width = 0;
+                            }else{
+                                width++;
+                                bar2.style.width = width + '%';
+                                // num2.innerHTML = width + '%';
+                            }
+                        },15);
+
+                        var time3 = setInterval(function(){
+
+                            if(width == 90){
+                                clearInterval(time3);
+                                width = 0;
+                            }else{
+                                width++;
+                                bar3.style.width = width + '%';
+                                // num3.innerHTML = width + '%';
+                            }
+                        },15);
+
+                        var time4 = setInterval(function(){
+
+                            if(width == 90){
+                                clearInterval(time4);
+                                width = 0;
+                            }else{
+                                width++;
+                                bar4.style.width = width + '%';
+                                // num4.innerHTML = width + '%';
+                            }
+                        },15);
+
+                        var time5 = setInterval(function(){
+
+                            if(width == 70){
+                                clearInterval(time5);
+                                width = 0;
+                            }else{
+                                width++;
+                                bar5.style.width = width + '%';
+                                // num5.innerHTML = width + '%';
+                            }
+                        },15);
+
+                        var time6 = setInterval(function(){
+
+                            if(width == 50){
+                                clearInterval(time6);
+                                width = 0;
+                            }else{
+                                width++;
+                                bar6.style.width = width + '%';
+                                // num6.innerHTML = width + '%';
+                            }
+                        },15);
+
+                        var time7 = setInterval(function(){
+
+                            if(width == 60){
+                                clearInterval(time7);
+                                width = 0;
+                            }else{
+                                width++;
+                                bar7.style.width = width + '%';
+                                // num7.innerHTML = width + '%';
+                            }
+                        },15);
+
+                        var time8 = setInterval(function(){
+
+                            if(width == 50){
+                                clearInterval(time8);
+                                width = 0;
+                            }else{
+                                width++;
+                                bar8.style.width = width + '%';
+                                // num8.innerHTML = width + '%';
+                            }
+                        },15);
+
+                    }
+                   
+               </script> -->
            </div>
           
            
@@ -225,7 +422,9 @@
        
        <article class="my_works clearfix">
            <h3>MY WORKS</h3>
-           <p class="w_info">html부터 차근차근 성장해 가고 있는 이연재의 작업공간 입니다.</p>
+           <p class="w_info">html부터 차근차근 성장해 가고 있는 이연재의 작업공간 입니다.<br>
+           작업물 위에 마우스를 올려주시거나 손으로 터치해 주세요.
+           </p>
 
            <!-- Swiper -->
           <div class="swiper-container">
@@ -373,6 +572,7 @@
                        <li><img src="./img/contact/phoen_black.png" alt="휴대폰번호">휴대폰 : 010-4310-2551</li>
                        <li><img src="./img/contact/free-icon-gmail-732200.png" alt="메일주소">이메일 : yeanjae0312@hanmail.net</li>
                        <li><img src="./img/contact/free-icon-kakao-talk-2111466.png" alt="카카오톡 주소">카카오톡 ID : yeanjae0312</li>
+                       <li><img src="./img/contact/github_icon.png" alt="깃허브 주소">깃허브 : https://github.com/yeanjae0312</li>
                    </ul>
                </div>
            </div>
@@ -629,8 +829,8 @@
        
        <aside>
           <div>
-             <img src="./img/contact/moon.png" alt="">
-              <span>TOP</span>
+             <img src="./img/footer/rocket2.png" alt="">
+              <!-- <span>TOP</span> -->
           </div>
        </aside>
    

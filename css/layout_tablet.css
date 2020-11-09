@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+/*Tablet*/
+@media screen and (min-width:768px) and (max-width:1023px){
+    .mobile_skills{
+        display: none;
+    }
+    /*팝업 모달서식--------------*/
+    .popup{
+        position: absolute;
+        right: 7%;
+        top: 60%;
+        width: 160px;
+        height: 150px;
+    }
+    .popup .m_txt{
+        font-size: 12px;
+        line-height: 22px;
+        transform: translateY(-10px);
+    }
+    .popup i.fas{
+        position: relative;
+        top: -215px;
+        right: -165px
+    }
+    /* 헤더영역------------------- */
+    header > a > img{
+        /* width: 70px;
+        left: 5px; */
+        width: 0px;
+    }
+
+    /* 비쥬얼 영역 --------------------*/
+    .visual{
+        height: 95vh;
+        position: relative;
+    }
+    
+    .visual p:first-of-type{
+        /* top: 30%; */
+        /* transform: translateY(1300%); */
+    }
+    .visual .typing-txt{
+        transform: translateY(300%);
+        font-size: 80px;
+    }
+    .m_icon{
+        /*    opacity: 0;*/
+            width: 70px;
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform:translateX(-50%);
+        }
+
+    /* about_us영역 ---------------------*/
+    .about_us{
+        width: 90%;
+        height: 1700px;
+    }
+    .about_us > h3{
+        padding: 20px 0px 10px 0px;
+    }
+    .profile{
+        width: 100%;
+        height: 640px;
+        margin: 20px auto 30px auto;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .profile_inner > img{
+        width: 350px;
+    }
+    .profile_inner > p:first-of-type{
+        font-size: 18px;
+        padding: 30px 45px;
+        line-height: 30px;
+    }
+   
+    .profile_inner > .info{
+        text-align: center;
+        text-indent: 0px;
+        line-height: 35px;
+    }
+    
+    .edu_licen{
+        width: 100%;
+        margin: 0px auto 0px auto;
+    }
+    .edu_licen > div{
+        width: 90%;
+        margin: 50px auto;
+    }
+    
+    .e_inner, .l_inner{
+        margin: 0px 30px;
+        line-height: 40px;
+        
+    }
+    .e_inner > h3, .l_inner > h3, .sk_inner > h3{
+        font-size: 20px;
+    }
+    .e_inner p, .l_inner p, .sk_inner p{
+        font-size: 16px;
+    }
+    
+    .sk_inner p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .icon_img{
+        width: 18px;
+        position: relative;
+        top: 5px;
+    }
+
+    /*my_works 영역-------------------------*/
+
+    /*스와이퍼 영역*/
+
+    .my_works{
+        width: 90%;
+        height: 620px;
+    }
+    .work_box{
+        width: 350px;
+        height: 350px;
+        margin: 0px auto;
+        border-radius: 10px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+   
+
+    /*한화리조트*/
+    .work_box > .w_hanwha{
+        width: 100%;
+        /* height: 600px; */
+        /* background: #e5e5e5; */
+    }
+    
+    .work_box > .w_hanwha > div > p:first-child{
+        top: 4%;
+    }
+    .work_box > .w_hanwha > div > p:last-child{
+        top: 20%;
+    }
+
+
+    /*비비큐*/
+   
+    .bbq > .bbq_inner{
+        width: 100%;
+        /* height: 600px; */
+    }
+    .bbq_inner > img{
+        transform: translateY(50px);
+    }
+    .work_box > .bbq_inner > div > p:last-child{
+        top: 35%;
+    }
+
+
+    /*리복*/
+    .work_box > .reebok_inner{
+        width: 100%;
+        /* height: 600px; */
+    }
+    .work_box > .reebok_inner > img{
+        width: 150%;
+        position: absolute;
+        left: -24%;
+        bottom: 38%;
+        border-radius: 10px;
+    }
+    .work_box > .reebok_inner > div > p:first-child{
+        top: 4%;
+    }
+    .work_box > .reebok_inner > div > p:last-child{
+        top: 20%;
+    }
+
+    /*버거킹*/
+    .work_box > .burger_inner{
+        width: 100%;
+        /* height: 600px; */
+    }
+    .work_box > .burger_inner > img{
+        width: 130%;
+        position: absolute;
+        left: -15%;
+        bottom: 41%;
+        border-radius: 10px;
+    }
+    .work_box > .burger_inner > div > p:first-child{
+        top: 4%;
+    }
+    .work_box > .burger_inner > div > p:last-child{
+        top: 20%;
+    }
+
+    /*수지*/
+    .work_box > .suzi_inner{
+        width: 100%;
+    }
+    .work_box > .suzi_inner > div > p:first-child{
+        top: 7%;
+    }
+    .work_box > .suzi_inner > div > p:last-child{
+        top: 35%;
+    }
+    .swiper-button-next:after{
+        display: none;
+    }
+
+    /*contact me 영역--------------------------*/
+    .contact_me{
+        width: 90%;
+        height: 650px;
+    }
+    .contact_inner{
+        width: 100%;
+        height: 800px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+    /*    background: #c5dbff;*/
+    }
+    .contact_inner > div{
+        width: 100%;
+        height: 530px;
+       /* background: #ffb9b9; */
+    }
+    .form legend{
+        font-size: 22px;
+    }
+    .field input{
+        width: 250px;
+        height: 30px;
+    }
+    .field textarea{
+        width: 250px;
+        height: 270px;
+    }
+    .contact_inner > .yeon_info{
+        height: 170px;
+    }
+    .yeon_info > ul > li{
+        font-size: 12px;
+        text-indent: 0px;
+        line-height: 25px;
+    }
+    .yeon_info > ul > li > img{
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+    }
+
+
+    /*푸터영역----------------------------------------*/
+    footer{
+        width: 100%;
+        height: 80px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+
+    footer aside{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 15%;
+        right: 10px;
+        z-index:1000;
+        cursor: pointer;
+        display: none;
+    }
+    footer aside > div{
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+    footer aside > div > span{
+        font-size: 18px;
+    }
+    
+
+}
