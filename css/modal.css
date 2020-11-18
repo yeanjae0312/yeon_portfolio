@@ -22,9 +22,9 @@ body.modal-open {
     overflow: scroll;
 }
 .modal_hanwha > .hanwha_inner{
-    width: 900px;
+    width: 1000px;
     /* height: 670px; */
-    margin: 0px auto 50px auto;
+    margin: 0px auto 40px auto;
     background: #fff;
     /* box-shadow: 0px 0px 5px #ccc; */
     border-radius: 10px;
@@ -50,7 +50,7 @@ body.modal-open {
     color: #F06E1A;
 }
 .hanwha_t{
-    width: 900px;
+    width: 1000px;
     /* height: 300px; */
 }
 .hanwha_t > img{
@@ -70,13 +70,13 @@ body.modal-open {
     /* bottom: 23%; */
 }
 .hanwha_b{
-    width: 900px;
+    width: 1000px;
     /* height: 250px; */
 }
 .hanwha_b > div{
 /*    display: inline-block;*/
     /* float: left; */
-    margin: 10px 25px;
+    margin: 10px 3.5%;
 }
 .main_color_img > img{
     width: 250px;
@@ -90,7 +90,7 @@ body.modal-open {
     margin-top: 25px;
 }
 .hanwha_link{
-    width: 148px;
+    width: 165px;
     margin: 0px auto;
     position: relative;
     bottom: 17%;
@@ -125,7 +125,7 @@ body.modal-open {
     overflow: scroll;
 }
 #modal_bbq > .m_bbq_inner{
-    width: 900px;
+    width: 1000px;
     /* height: 670px; */
     margin: 0px auto 50px auto;
     background: #fff;
@@ -153,7 +153,7 @@ body.modal-open {
     color: #880505;
 }
 .bbq_t{
-    width: 900px;
+    width: 1000px;
     /* height: 300px; */
 }
 .bbq_t > img{
@@ -186,7 +186,7 @@ body.modal-open {
 .bbq_b > div{
 /*    display: inline-block;*/
     /* float: left; */
-    margin: 10px 25px;
+    margin: 10px 3.5%;
 }
 .main_color_img > img{
     width: 250px;
@@ -200,7 +200,7 @@ body.modal-open {
     margin-top: 25px;
 }
 .bbq_link{
-    width: 148px;
+    width: 165px;
     margin: 0px auto;
     position: relative;
     bottom: 17%;
@@ -234,7 +234,7 @@ body.modal-open {
     overflow: scroll;
 }
 #modal_reebok > .m_reebok_inner{
-    width: 900px;
+    width: 1000px;
     /* height: 670px; */
     margin: 0px auto 50px auto;
     background: #fff;
@@ -262,7 +262,7 @@ body.modal-open {
     color: #003A90;
 }
 .reebok_t{
-    width: 900px;
+    width: 1000px;
     /* height: 300px; */
 }
 .reebok_t > .reebok_img{
@@ -304,7 +304,7 @@ body.modal-open {
 .reebok_b > div{
 /*    display: inline-block;*/
     /* float: left; */
-    margin: 10px 25px;
+    margin: 10px 3.5%;
 }
 .reebok_b > .r_tool > p:last-child{
     transform: translateY(-20px);
@@ -321,7 +321,7 @@ body.modal-open {
     margin-top: 25px;
 }
 .reebok_link{
-    width: 148px;
+    width: 165px;
     margin: 0px auto;
     position: relative;
     bottom: 17%;
@@ -355,7 +355,7 @@ body.modal-open {
     overflow: scroll;
 }
 #modal_burgerking > .m_burgerking_inner{
-    width: 900px;
+    width: 1000px;
     /* height: 670px; */
     margin: 0px auto 50px auto;
     background: #fff;
@@ -383,7 +383,7 @@ body.modal-open {
     color: #e0b726;
 }
 .burger_t{
-    width: 900px;
+    width: 1000px;
     /* height: 300px; */
 }
 .burger_t > img{
@@ -417,7 +417,7 @@ body.modal-open {
 .burger_b > div{
 /*    display: inline-block;*/
     /* float: left; */
-    margin: 10px 25px;
+    margin: 10px 3.5%;
 }
 .burger_b > .r_tool > p:last-child{
 /*    transform: translateY(-20px);*/
@@ -434,7 +434,7 @@ body.modal-open {
     margin-top: 25px;
 }
 .burger_link{
-    width: 148px;
+    width: 165px;
     margin: 0px auto;
     position: relative;
     bottom: 17%;
@@ -468,7 +468,7 @@ body.modal-open {
     overflow: scroll;
 }
 #modal_suzi > .m_suzi_inner{
-    width: 900px;
+    width: 1000px;
     /* height: 670px; */
     margin: 0px auto 50px auto;
     background: #fff;
@@ -496,7 +496,7 @@ body.modal-open {
     color: #232123;
 }
 .suzi_t{
-    width: 900px;
+    width: 1000px;
     /* height: 300px; */
 }
 .suzi_t > img{
@@ -530,7 +530,7 @@ body.modal-open {
 .suzi_b > div{
 /*    display: inline-block;*/
     /* float: left; */
-    margin: 10px 22px;
+    margin: 10px 3%;
 }
 .suzi_b > .r_tool > p:last-child{
 /*    transform: translateY(-20px);*/
@@ -547,7 +547,7 @@ body.modal-open {
     margin-top: 25px;
 }
 .suzi_link{
-    width: 148px;
+    width: 165px;
     margin: 0px auto;
     position: relative;
     bottom: 17%;

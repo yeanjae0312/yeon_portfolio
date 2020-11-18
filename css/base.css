@@ -4,10 +4,10 @@
 
 body{
     font-family: 'Nanum Gothic', sans-serif;
+    -ms-font-family: 'Nanum Gothic', sans-serif;
     font-size: 12px;
     color: #333333;
     overflow-x: hidden;
-    
 }
 
 a{
